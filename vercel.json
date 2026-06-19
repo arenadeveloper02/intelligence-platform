@@ -1,9 +1,12 @@
 {
-  "experimentalServices": {
-    "ad-intelligence": {
-      "root": "apps/ad-intelligence",
-      "routePrefix": "/",
-      "framework": "vite"
+  "buildCommand": "cd apps/ad-intelligence && npm install && npm run build",
+  "outputDirectory": "apps/ad-intelligence/dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
-  }
+  ]
 }
