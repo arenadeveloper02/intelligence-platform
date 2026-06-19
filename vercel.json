@@ -1,12 +1,14 @@
 {
-    "experimentalServices": {
-        "web": {
-            "routePrefix": "/_/web"
-        },
-        "ad-intelligence": {
-            "root": "apps/ad-intelligence",
-            "routePrefix": "/",
-            "framework": "vite"
-        }
+  "experimentalServices": {
+    "web": {
+      "root": "apps/web",
+      "routePrefix": "/_/web",
+      "framework": "vite"
+    },
+    "ad-intelligence": {
+      "root": "apps/ad-intelligence",
+      "routePrefix": "/",
+      "framework": "vite"
     }
+  }
 }
