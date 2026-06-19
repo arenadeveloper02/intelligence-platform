@@ -1,7 +1,7 @@
 {
   "experimentalServices": {
     "ad-intelligence": {
-      "root": "apps/ad_intelligence",
+      "root": "apps/ad-intelligence",
       "routePrefix": "/",
       "framework": "vite"
     }
